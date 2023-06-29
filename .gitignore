@@ -1,0 +1,6 @@
+# misc
+*.exe
+main
+.idea
+.env
+tmp/
