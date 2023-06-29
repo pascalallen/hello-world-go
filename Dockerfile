@@ -6,7 +6,8 @@ LABEL org.opencontainers.image.licenses=MIT
 
 WORKDIR /app
 
-ADD . /app
+COPY . ./
+RUN go mod download
 
 RUN go build -o /hello-world-go
 
