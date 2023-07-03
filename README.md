@@ -1,6 +1,7 @@
-# hello-world-go
+# kubernetes-go
 
-hello-world-go is a tutorial repository, demonstrating how to deploy to Kubernetes.
+kubernetes-go is a tutorial repository, demonstrating how to deploy to Kubernetes. The publication for this repository
+can be found [here](https://medium.com/@pascal.allen88/how-to-deploy-to-kubernetes-76c42e5ea28c).
 
 ## Prerequisites
 
@@ -14,7 +15,7 @@ hello-world-go is a tutorial repository, demonstrating how to deploy to Kubernet
 ### Build and Tag Docker Image
 
 ```bash
-docker build -t pascalallen/hello-world-go .
+docker build -t pascalallen/kubernetes-go .
 ```
 
 ### Log in to Docker Hub
@@ -26,7 +27,7 @@ docker login
 ### Push Image to Docker Hub
 
 ```bash
-docker push pascalallen/hello-world-go
+docker push pascalallen/kubernetes-go
 ``` 
 
 ### Apply Service to Kubernetes Cluster
@@ -35,7 +36,7 @@ docker push pascalallen/hello-world-go
 kubectl apply -f etc/k8s/go
 ```
 
-Locally, you will find the site running at http://localhost:9990/ 
+Locally, you will find the site running at http://localhost:9990/
 
 ### List Kubernetes Pods
 

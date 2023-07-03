@@ -13,8 +13,8 @@ spec:
         name: go
     spec:
       containers:
-        - name: hello-world-go
-          image: pascalallen/hello-world-go
+        - name: kubernetes-go
+          image: pascalallen/kubernetes-go
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9990
