@@ -1,7 +1,6 @@
 # kubernetes-go
 
-kubernetes-go is a tutorial repository, demonstrating how to deploy to Kubernetes. The publication for this repository
-can be found [here](https://medium.com/@pascal.allen88/how-to-deploy-to-kubernetes-76c42e5ea28c).
+kubernetes-go is a Go module that offers tools to deploy to Kubernetes. There is a publication for this repository which can be found [here](https://pascalallen.medium.com/how-to-deploy-to-kubernetes-76c42e5ea28c).
 
 ## Prerequisites
 
